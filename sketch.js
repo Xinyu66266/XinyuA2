@@ -65,7 +65,7 @@
    background(244, 229, 218);
  
    textAlign(CENTER);
-   textSize(25);
+   textSize(20);
  
  
  }
@@ -129,7 +129,7 @@
  
  function changeVideoSpeed() {
  
-   if (occupancy == 3){ // if there is only one viewer than the video is a normal speed 
+   if (occupancy == 4){ // if there is only one viewer than the video is a normal speed 
  
      //vid.pause();
      vid.speed(1);
