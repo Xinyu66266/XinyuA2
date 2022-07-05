@@ -183,7 +183,5 @@
  
    console.log(occupancy);
  
-   //connnectionInfo.action == "join"
-   //connnectionInfo.action == "leave"
  
  }
