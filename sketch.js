@@ -92,7 +92,7 @@
   }
  
   if (occupancy > 0) {
-     text(occupancy + " element(s) affecting the growth of trees", windowWidth/2, windowHeight/8 * 7);
+     text("There are" + occupancy + " elements affecting the growth of trees", windowWidth/2, windowHeight/8 * 7);
  
   } else {
      //text("There is no one online", windowWidth/2, windowHeight/8 * 7);
