@@ -65,7 +65,7 @@
    background(244, 229, 218);
  
    textAlign(CENTER);
-   textSize(20);
+   textSize(25);
  
  
  }
@@ -129,7 +129,7 @@
  
  function changeVideoSpeed() {
  
-   if (occupancy == 4){ // if there is only one viewer than the video is a normal speed 
+   if (occupancy == 3){ // if there is only one viewer than the video is a normal speed 
  
      //vid.pause();
      vid.speed(1);
@@ -149,15 +149,8 @@
    vid.size(windowWidth/2, windowHeight/2); 
    vid.position(windowWidth/4,windowHeight/4);
    vid.play();
-   if (vid.pause) {
-     vid.loop();
-     allowMessage = true;
-
-   } else {
-    allowMessage = false;
 
    }
-   //vid.loop();
  
  }
  
