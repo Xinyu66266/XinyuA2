@@ -5,9 +5,9 @@
  */
 
  let dataServer;
- let pubKey = "pub-c-ad5fb6aa-a58d-4052-b26c-b6b669326229";
- let subKey = "sub-c-02ae8f64-6ab2-4e7f-84d1-beeaa6f12167";
- let secretKey = "sec-c-NzFiZWZiMDEtZDU2Ny00NjY3LWExY2UtM2YxMzI2YWUxZWFh";
+ let pubKey = "pub-c-983eb54b-2d92-49d3-81a4-68619c3b2960";
+ let subKey = "sub-c-5f7d54fb-893d-4feb-9be1-7ad0b355b34e";
+ let secretKey = "sec-c-YjdiNjY1YzUtMjhkMy00ODcyLTkxZWItMmIzY2YyYmJhODFl";
  
  //name used to sort your messages. used like a radio station. can be called anything
  let channelName = "slowMovieDown";
@@ -30,8 +30,6 @@
  let allowMessage = false;
  
  let you;
-
- const video = document.getElementById('tree.mp4');
  
  function preload() { // preload our yoyo video
    vid = createVideo("tree.mp4"); 
@@ -92,25 +90,13 @@
   }
  
   if (occupancy > 0) {
-     text("There are" + occupancy + " elements affecting the growth of trees", windowWidth/2, windowHeight/8 * 7);
+     text("There are " +  occupancy + " element(s) affecting plant growth", windowWidth/2, windowHeight/8 * 7);
  
   } else {
      //text("There is no one online", windowWidth/2, windowHeight/8 * 7);
  
   }
- 
  }
- 
- //function mousePressed() {
- 
-   //if (firstClick == false) { 
-     //drawVideo();
-     //firstClick = true;
-     //sendTheMessage();
-     // first click draws the video
-  //}
- 
- //}
  
  function sendTheMessage() {
    dataServer.publish({
