@@ -152,7 +152,6 @@
 
    }
  
- }
  
  function whoisconnected(connectionInfo) {
  
