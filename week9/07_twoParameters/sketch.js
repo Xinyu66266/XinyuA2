@@ -1,7 +1,7 @@
 let dataServer;
-let pubKey = "YOUR PUBLISH KEY HERE";
-let subKey = "YOUR SUBSCRIBE KEY HERE";
-let secretKey = "YOUR SECRET KEY HERE";
+let pubKey = "pub-c-40aac7c7-7f6a-4014-abae-03a62134ebaa";
+let subKey = "sub-c-f08172a1-736e-47c5-ae3b-26cd288cd19e";
+let secretKey = "sec-c-OWRiMTVlMTItNjUyNC00NWUxLTg4MzQtN2EzMDAzYTdiMzgy";
 
 let channelName = "NFCs"; // we don't define this right away!
 
