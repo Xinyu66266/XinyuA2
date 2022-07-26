@@ -62,6 +62,22 @@ function setup() {
    
     textAlign(CENTER);
     textSize(60);
+  /*
+ if (NFC1 != null) {
+// do something for nfc1
+      sendTheMessage();
+// draw something
+} else if (NFC2 != null) {
+// do something for nfc2
+      sendTheMessage();
+// draw something
+} else {
+      fetchMessages();
+
+//no paramters do something else
+}
+  
+  */
     if (noParams == false) {
       sendTheMessage();
     } else {
