@@ -61,16 +61,16 @@ function setup() {
     dataServer.addListener({ message: readIncoming });
    
     textAlign(CENTER);
-    textSize(80);
+    textSize(60);
     if (noParams == false) {
       sendTheMessage();
     } else {
       fetchMessages();
       noStroke();
       fill(255, 0 , 0);
-      text("Home (NFC1)", windowWidth*0.25, windowHeight/2);
+      text("Online communication (NFC1)", windowWidth*0.25, windowHeight/2);
       fill(0, 0, 255);
-      text("School (NFC2)", windowWidth*0.75, windowHeight/2);
+      text("Offline communication (NFC2)", windowWidth*0.75, windowHeight/2);
 
     }
     
